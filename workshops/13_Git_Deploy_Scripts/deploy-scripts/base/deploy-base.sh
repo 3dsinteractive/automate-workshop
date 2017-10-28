@@ -188,9 +188,9 @@ function run() {
 
     checkEnv
 
-    gitUpdate $DOCKER_DIR $DOCKER_REPO $SERVER_ENV
-    gitUpdate $CONFIG_DIR $CONFIG_REPO $CONFIG_ENV
     gitUpdate $SOURCE_DIR $SOURCE_REPO $RELEASE_BRANCH $RELEASE_VERSION
+    gitUpdate $CONFIG_DIR $CONFIG_REPO $CONFIG_ENV
+    gitUpdate $DOCKER_DIR $DOCKER_REPO $SERVER_ENV
 
     #sync file to build dir
     rsyncHard $SOURCE_DIR/$SOURCE_SUBDIR $BUILD_DIR
