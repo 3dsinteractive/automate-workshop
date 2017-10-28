@@ -71,4 +71,4 @@ alias docker-rmi-dangling='docker rmi $(docker images -f "dangling=true" -q)'
 
 11. Open sourcemaster url
 <enter jenkins ip address into your browser address bar with port 8080>
-// You will see forbidden page
+// You will see a page with text "Source master"
