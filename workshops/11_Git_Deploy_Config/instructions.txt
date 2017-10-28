@@ -13,15 +13,17 @@ Workshop 09 : Create your deployment config
 5. Copy folder config from 09_Deployment_Config/internal to laravel-quickstart-config/config using command line
 # cp -r internal/config <your-laravel-quickstart-config-project-path>
 
-6. Commit and push internal branch ** notice /config/.env file must be pushed into github
+6. Make sure that you have directory "config" at root directory of your git.
 
-7. Checkout master branch
+7. Commit and push internal branch ** notice /config/.env file must be pushed into github
 
-8. Then create production branch from master branch and checkout
+8. Checkout master branch
 
-9. Copy folder config from 09_Deployment_Config/production to laravel-quickstart-config/config
+9. Then create production branch from master branch and checkout
+
+10. Copy folder config from 09_Deployment_Config/production to laravel-quickstart-config/config
 # cp -r production/config <your-laravel-quickstart-config-project-path>
 
-10. Commit and push production branch ** notice /config/.env file must be pushed into github
+11. Commit and push production branch ** notice /config/.env file must be pushed into github
 
-11. Now you have configuration files for deployment.
+12. Now you have configuration files for deployment.
