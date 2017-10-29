@@ -3,7 +3,7 @@ Workshop 13 : Create deploy scripts
 
 1. Create new git and name it "deploy-scripts"
 
-2. Copy files from 16-deployment-scripts/deploy-scripts to your git directory
+2. Copy files from 13-deployment-scripts/deploy-scripts to your git directory
 # cp -r deploy-scripts/* <your-deploy-scripts-path>
 
 3. Open your text editor and replace following variable in

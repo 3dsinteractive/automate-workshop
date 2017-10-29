@@ -1,5 +1,5 @@
 
-Workshop 10 : Create your deployment dockers
+Workshop 12 : Create your deployment dockers
 
 1. Create new git repositories "laravel-quickstart-dockers" and checkout to your projects directory
 

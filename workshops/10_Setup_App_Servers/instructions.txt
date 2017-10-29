@@ -1,5 +1,5 @@
 
-Workshop 12 : Create your own app servers
+Workshop 10 : Create your own app servers
 
 1. ssh to app servers
 # ssh -i pem-files/automate-workshop.pem ubuntu@<your-app-server-ip>

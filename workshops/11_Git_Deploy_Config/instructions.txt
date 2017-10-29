@@ -1,5 +1,5 @@
 
-Workshop 09 : Create your deployment config
+Workshop 11 : Create your deployment config
 
 1. Create new git repositories "laravel-quickstart-config" and checkout to your projects directory
 
