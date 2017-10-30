@@ -1,5 +1,7 @@
 
-Workshop 06: Basic Development Stack
+Workshop 06: Working with local project
+(for windows please kindly run command with administrator privilege:
+Set-ExecutionPolicy Unrestricted)
 
 1. Go to project directory
 # cd laravel-quickstart
@@ -7,8 +9,9 @@ Workshop 06: Basic Development Stack
 2. Run composer update using composer image
 for MAC:
 # ./composer-update.sh
+
 for Windows:
-# composer-update.bat
+# .\composer-update.ps1
 
 4. Add hosts for new network name
 for MAC: 
@@ -25,20 +28,20 @@ edit c:\windows\system32\drivers\etc\hosts
 for MAC
 # ./start-docker.sh
 for Windows:
-# start-docker.bat
+# .\start-docker.ps1
 
 6. run migration using docker-compose exec
 for MAC
 # ./migrate.sh
 for Windows:
-# migrate.bat
+# .\migrate.ps1
 
-7. browse http://laravel-quickstart.local in browser
+7. browse laravel-quickstart.local in browser
 
-8. browse http://laravel-quickstart-db.local in browser
+8. browse laravel-quickstart-db.local in browser
 
 9. Stop dockers
 for MAC:
 # ./stop-docker.sh
 for Windows:
-# stop-docker.bat
+# .\stop-docker.ps1

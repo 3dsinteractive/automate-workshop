@@ -8,8 +8,9 @@ Workshop 5: Run Container with Map Host Volume
 	Docker for MAC:
 	docker run -dt --name nginxtest -v $(pwd)/source:/opt/bitnami/nginx/html:ro -p 80:8080 -p 443:8443 3dsinteractive/nginx:1.12
 
-	Docker for Windows:
-	docker run -dt --name nginxtest -v %cd%/source:/opt/bitnami/nginx/html:ro -p 80:8080 -p 443:8443 3dsinteractive/nginx:1.12
+	Docker for Windows: (Powershell)
+	$pathnow=(Get-Item -Path ".\" -Verbose).FullName
+	docker run -dt --name nginxtest -v $pathnow\source:/opt/bitnami/nginx/html:ro -p 80:8080 -p 443:8443 3dsinteractive/nginx:1.12
 	
 
 4. open browser with url: http://localhost https://localhost
