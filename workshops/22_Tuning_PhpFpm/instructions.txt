@@ -1,7 +1,8 @@
 Workshop 24 : Tuning PHP-FPM for production
 
 1. Configuration file
-  /opt/bitnami/php/etc/php-fpm.d/www.conf
+
+  Copy www.conf to /opt/bitnami/php/etc/php-fpm.d/www.conf
 
   ```
   pm = dynamic

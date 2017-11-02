@@ -9,15 +9,15 @@ Nginx = N-GIN-X = Engine-X
 2. Basic command and option
 
   2.1 Start Nginx web server
-
+    # Run command
     # nginx
 
   2.2 Reload configuration
-
+    # Run command
     # nginx -s reload
 
   2.3 Stop Nginx web server
-
+    # Run command
     # nginx -s stop
 
 3. Nginx Configuration Structure
