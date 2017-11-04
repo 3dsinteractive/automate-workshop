@@ -13,7 +13,7 @@ Workshop 08 : Understand git-flow
 
 6. Copy source from 07_PhpUnit/laravel-quickstart to laravel-quickstart-source using command
 ** Replase <workshop-dir> with actual dir
-# cp -R <workshop-dir>/07_PhpUnit/laravel-quickstart/* <workshop-dir>/08_GitFlow/laravel-quickstart-source/
+# cp -R <workshop-dir>/07_PhpUnit/laravel-quickstart/. <workshop-dir>/08_GitFlow/laravel-quickstart-source/
 
 7. Commit and push master branch.
 

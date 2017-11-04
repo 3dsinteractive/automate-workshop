@@ -10,21 +10,26 @@ Workshop 12 : Create your deployment dockers
 
 4. Create branch "internal" and checkout "internal"
 
-5. Copy folder dockers from 10_Deployment_Dockers/internal to laravel-quickstart-dockers/dockers using command line
+5. Copy folder dockers from 12_Git_Deploy_Dockers/internal to laravel-quickstart-dockers/dockers using command line
 # cp -r internal/dockers <your-laravel-quickstart-dockers-project-path>
 
-6. Commit and push internal branch
+6. Be sure that "dockers" is in the root path of your git.
+** We warn you because if you do not have "dockers" directory at root of your git, you will fail in the next few workshop.
 
-7. Checkout master branch
+7. Commit and push internal branch
 
-8. Then create production branch from master branch and checkout
+8. Checkout master branch
 
-9. Copy folder dockers from 10_Deployment_Dockers/production to laravel-quickstart-dockers/dockers
+9. Then create production branch from master branch and checkout
+
+10. Copy folder dockers from 12_Git_Deploy_Dockers/production to laravel-quickstart-dockers/dockers
 # cp -r production/dockers <your-laravel-quickstart-dockers-project-path>
 
-10. Commit and push production branch
+11. Be sure that "dockers" is in the root path of your git.
 
-11. Now you will have 3 directories ready for deploy
+12. Commit and push production branch
+
+13. Now you will have 3 directories ready for deploy
 
 laravel-quickstart-source
 laravel-quickstart-config
