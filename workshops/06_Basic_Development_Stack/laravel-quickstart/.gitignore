@@ -1,5 +1,4 @@
 dockers/web/db/data
-dockers/web/db-test/data
 dockers/web/lb/logs
 dockers/web/web1/logs
 dockers/web/web2/logs
