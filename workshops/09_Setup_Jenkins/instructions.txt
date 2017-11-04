@@ -1,5 +1,5 @@
 
-Workshop 11 : Create your own jenkins server
+Workshop 09 : Create your own jenkins server
 
 1. ssh to jenkins server
 # ssh -i pem-files/automate-workshop.pem ubuntu@<your-jenkins-server-ip>
