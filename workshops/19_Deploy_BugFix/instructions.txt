@@ -1,2 +1,9 @@
 
 Workshop 19 : Deploy hotfix
+
+1. Create new Tags in support.1.x branch
+
+2. Update Jenkins command
+    2.1 Using Jenkins project from workshop 16 and update command to
+/bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/production/deploy.sh production production support.1.x 1.1
+    2.2 Build

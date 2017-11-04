@@ -1,3 +1,7 @@
 
 Workshop 17 : Deploy new feature
 
+1. Update Jenkins command
+    1.1 Using Jenkins project from workshop 16 and update command to
+/bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/production/deploy.sh production production master 2.0
+    1.2 Build
