@@ -8,6 +8,7 @@ Workshop 14 : Deploy internal project with test and without test
    1.4 Click Add Credentials
    1.5 Use "Secret file"
    1.6 Browse automate-workshop.pem and upload to server.
+   1.7 Enter id = "PEM file" ** you can use other name.
    1.7 OK
 
 2. Create deploy internal project

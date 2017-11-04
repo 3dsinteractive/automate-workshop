@@ -22,7 +22,7 @@ deploy-scripts/laravel-quickstart/internal/deploy.sh and deploy-scripts/laravel-
     6.2 Click sub menu System
     6.3 Click Global credentials (unrestricted)
     6.4 Click Add Credentials
-    6.5 Enter username, password using id = github
+    6.5 Enter username, password using id = github ** you can change to other id
     6.6 OK
 
 7. Create deployment scripts project
