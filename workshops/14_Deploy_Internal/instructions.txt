@@ -1,7 +1,16 @@
 
 Workshop 14 : Deploy internal project with test and without test
 
-1. Create deploy internal project
+1. Create your github credential
+   1.1 Click menu Credentials
+   1.2 Click sub menu System
+   1.3 Click Global credentials (unrestricted)
+   1.4 Click Add Credentials
+   1.5 Use "Secret file"
+   1.6 Browse automate-workshop.pem and upload to server.
+   1.7 OK
+
+2. Create deploy internal project
     1.1 Create a new job
     1.2 Choose Freestyle project and name project "laravel-quickstart-internal"
     1.3 Press OK

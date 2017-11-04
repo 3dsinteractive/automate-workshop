@@ -8,8 +8,9 @@ Workshop 07: PhpUnit
 2. Run composer update using composer image
 for MAC:
 # ./composer-update.sh
+
 for Windows:
-# composer-update.bat
+# .\composer-update.ps1
 
 4. Add hosts for new network name
 for MAC:
@@ -26,19 +27,19 @@ edit c:\windows\system32\drivers\etc\hosts
 for MAC
 # ./start-docker.sh
 for Windows:
-start-docker.bat
+# .\start-docker.ps1
 
 6. run test using docker-compose exec
 for MAC
 # ./runtest.sh
 for Windows:
-runtest.bat
+# .\runtest.ps1
 
 7. Stop dockers
 for MAC:
 # ./stop-docker.sh
 for Windows:
-# stop-docker.bat
+# .\stop-docker.ps1
 
 8. Have a look at phpunit.xml
 <env name="DB_CONNECTION" value="mysqltest" />
