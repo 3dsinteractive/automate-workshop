@@ -7,18 +7,20 @@ Workshop 15: Deploy Internal with Automate Test
 
 3. Create branch "test" and checkout "test"
 
-5. Copy folder dockers from 10_Deployment_Dockers/test to laravel-quickstart-dockers/dockers using command line
+4. Copy folder dockers from 15_Deploy_Automate_Test/test/dockers to laravel-quickstart-dockers using command line
 # cp -r test/dockers <your-laravel-quickstart-dockers-project-path>
 
-6. Commit and push "test" branch
+** Make sure that /dockers at the root of git.
 
-7. Open jenkins url in your web browser
+5. Commit and push "test" branch
 
-8. Open project "laravel-quickstart-internal"
+6. Open jenkins url in your web browser
 
-9. Add Automate Test Build Step
-    9.1 Under Build section, Add build step -> Execute Shell
-    9.2 Enter command belows
+7. Open project "laravel-quickstart-internal"
+
+8. Add Automate Test Build Step
+    8.1 Under Build section, Add build step -> Execute Shell
+    8.2 Enter command belows
 /bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/test/deploy.sh internal test master 1.0
-    9.3 Save
-    9.4 Build
+    8.3 Save
+    8.4 Build
