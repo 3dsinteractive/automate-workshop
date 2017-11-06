@@ -19,8 +19,8 @@ Password: <your-password>
 MAC
 # ./docker-build.sh 1.12
 Windows
-# docker build -t <your-docker-repository>/php-fpm:1.12 1.12
-# docker push <your-docker-repository>/php-fpm:1.12
+# docker build -t 3dsinteractive/php-fpm:1.12 1.12
+# docker push 3dsinteractive/php-fpm:1.12
 
 7. You will have images <your-docker-repository>/nginx:1.12
 

@@ -11,5 +11,5 @@ if [ ! -d "$version" ]; then
     exit 1
 fi
 
-docker build -t <your-docker-repository>/nginx:$version $version
-docker push <your-docker-repository>/nginx:$version
+docker build -t 3dsinteractive/nginx:$version $version
+docker push 3dsinteractive/nginx:$version

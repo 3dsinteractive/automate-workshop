@@ -21,6 +21,6 @@ Workshop 15: Deploy Internal with Automate Test
 8. Add Automate Test Build Step
     8.1 Under Build section, Add build step -> Execute Shell
     8.2 Enter command belows
-/bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/test/deploy.sh internal test master 1.0
+/bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/test/deploy.sh internal test develop
     8.3 Save
     8.4 Build

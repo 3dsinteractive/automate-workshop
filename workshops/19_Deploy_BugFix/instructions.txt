@@ -1,9 +1,19 @@
 
 Workshop 19 : Deploy hotfix
 
-1. Create new Tags in support.1.x branch
+1. Check out tag 1.0
 
-2. Update Jenkins command
-    2.1 Using Jenkins project from workshop 16 and update command to
+2. Update something in your source code.
+
+3. Create new branch name support.1.1x and merge changes in support.1.x branch
+
+4. Tag the commit 1.1
+
+5. Update Jenkins command
+    5.1 Using Jenkins project from workshop 16 and update command to
 /bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/production/deploy.sh production production support.1.x 1.1
-    2.2 Build
+    5.2 Save
+
+6. Build now
+
+7. Access production web site by point browser to url http://<your-app-server-ip>:8082

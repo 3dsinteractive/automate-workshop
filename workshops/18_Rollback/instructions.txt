@@ -3,5 +3,9 @@ Workshop 18 : Rollback deploy
 
 1. Update Jenkins command
     1.1 Using Jenkins project from workshop 16 and update command to
-/bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/production/deploy.sh production production support.1.x 1.1
-    1.2 Build
+/bitnami/jenkins/1001/deploy-scripts/laravel-quickstart/production/deploy.sh production production 1.0
+    1.2 Save
+
+2. Roll back production by clicking "Build Now"
+
+3. Access production web site by point browser to url http://<your-app-server-ip>:8082
